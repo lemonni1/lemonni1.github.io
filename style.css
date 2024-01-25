@@ -102,12 +102,11 @@ textarea{
 	height: 200px;
 }
 .kuvat {
-	margin: auto;
 	height: 70%;
 	width: 80%;
+	margin-left: 10%;
 	margin-top: 10%;
 	background-color: aqua;
-	text-align: center;
 }
 .nimet {
 	position: relative;
