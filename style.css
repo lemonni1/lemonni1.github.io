@@ -98,11 +98,19 @@ textarea{
 }
 .pelaaja {
 	background-color:#ECDF37;
+	width: 170px;
 	height: 200px;
-	display: flex;
+}
+.kuvat {
+	margin: auto;
+	height: 70%;
+	width: 80%;
+	margin-top: 10%;
+	background-color: aqua;
+	text-align: center;
 }
 .nimet {
 	position: relative;
-	align-self: flex-end;
-	margin: auto;
+	text-align: center;
+	bottom: 5%;
 }
