@@ -44,6 +44,19 @@ body{
 	clear:both;
 	text-align:center;
 	font-size:11px;
+	background-color:#3d423d;
+	border-right: 10px solid #ECDF37;
+	bottom: 0px;
+	width: 100%;
+}
+footer {
+	clear:both;
+	text-align:center;
+	font-size:11px;
+	background-color:#3d423d;
+	border-right: 10px solid #ECDF37;
+	bottom: 0px;
+	width: 100%;
 }
 h1{
 	display:block;
@@ -112,4 +125,14 @@ textarea{
 	position: relative;
 	text-align: center;
 	bottom: 5%;
+}
+.someupotus {
+	margin: auto;
+	background-color: #666;
+	width: 500px;
+	height: 500px;
+}
+#facegramlogo {
+	height: 50px;
+	background-color: lightskyblue;
 }
