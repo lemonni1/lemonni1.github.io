@@ -78,7 +78,7 @@ a:hover{
 	background-color:#3d423d;
 	color:#fff;
 }
-a.linkit{
+a.linkit, .dropbtn{
 	display:inline-block;
 	width:100px;
 	font-size:16px;
@@ -89,7 +89,7 @@ a.linkit{
 	padding:10px;
 	border:2px black solid;
 }
-a.linkit:hover, a.longan:active{
+a.linkit:hover, .dropbtn:hover, a.longan:active, .dropbtn:active{
 	background-color:black;
 	color:#ECDF37;
 	border-color:black;
@@ -127,23 +127,19 @@ textarea{
 	bottom: 5%;
 }
 .someupotus {
+	object-fit: cover;
 	margin: auto;
 	background-color: #666;
-	width: 500px;
+	width: 70%;
 	height: 500px;
 }
 #facegramlogo {
 	height: 50px;
 	background-color: lightskyblue;
 }
-
-
-
-
-
-
-
 .dropdown {
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
 	position: relative;
 	display: inline-block;
   }
@@ -151,21 +147,27 @@ textarea{
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
+	background-color: #ECDF37;
+	width: 100px;
+	font-size:16px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
   }
-  
+  .dropbtn {
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	background-color: #ECDF37;
+  }
   .dropdown-content a {
 	color: black;
-	padding: 12px 16px;
+	padding: 6px 16px;
+	line-height: 25px;
 	text-decoration: none;
 	display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: black; color: #ECDF37;}
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: black; color: #ECDF37;}
