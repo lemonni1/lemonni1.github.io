@@ -78,7 +78,7 @@ a:hover{
 	background-color:#3d423d;
 	color:#fff;
 }
-a.linkit, .dropbtn{
+a.linkit, .dropbtn, .dropbtn2{
 	display:inline-block;
 	width:100px;
 	font-size:16px;
@@ -89,7 +89,7 @@ a.linkit, .dropbtn{
 	padding:10px;
 	border:2px black solid;
 }
-a.linkit:hover, .dropbtn:hover, a.longan:active, .dropbtn:active{
+a.linkit:hover, .dropbtn:hover, a.longan:active, .dropbtn:active, .dropbtn2:hover, a.longan2:active, .dropbtn2:active{
 	background-color:black;
 	color:#ECDF37;
 	border-color:black;
@@ -137,14 +137,15 @@ textarea{
 	height: 50px;
 	background-color: lightskyblue;
 }
-.dropdown {
+.dropdown, .dropdown2 {
 	font-family: 'Oswald', sans-serif;
 	text-transform:uppercase;
 	position: relative;
 	display: inline-block;
   }
   
-  .dropdown-content {
+  .dropdown-content, .dropdown-content2 {
+	width: fit-content;
 	display: none;
 	position: absolute;
 	background-color: #ECDF37;
@@ -153,12 +154,14 @@ textarea{
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
   }
-  .dropbtn {
+  .dropbtn, .dropbtn2 {
+	width: fit-content;
 	font-family: 'Oswald', sans-serif;
 	text-transform:uppercase;
 	background-color: #ECDF37;
   }
-  .dropdown-content a {
+  .dropdown-content a, .dropdown-content2 a {
+	width: fit-content;
 	color: black;
 	padding: 6px 16px;
 	line-height: 25px;
@@ -166,8 +169,8 @@ textarea{
 	display: block;
   }
   
-  .dropdown-content a:hover {background-color: black; color: #ECDF37;}
+  .dropdown-content a:hover, .dropdown-content2 a:hover {background-color: black; color: #ECDF37;}
   
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content, .dropdown2:hover .dropdown-content2 {display: block; width: fit-content;}
   
-  .dropdown:hover .dropbtn {background-color: black; color: #ECDF37;}
+  .dropdown:hover .dropbtn, .dropdown2:hover .dropbtn2 {background-color: black; color: #ECDF37;}
