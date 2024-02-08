@@ -56,7 +56,8 @@ footer {
 	background-color:#3d423d;
 	border-right: 10px solid #ECDF37;
 	bottom: 0px;
-	width: 100%;
+	margin: auto;
+	width: 95%;
 }
 h1{
 	display:block;
@@ -136,6 +137,18 @@ textarea{
 #facegramlogo {
 	height: 50px;
 	background-color: lightskyblue;
+}
+table {
+	margin: auto;
+}
+td {
+	padding: 10px;
+	width: 150px;
+	height: 90px;
+}
+.spkuva {
+	width: 250px;
+	height: 120px;
 }
 .dropdown, .dropdown2 {
 	font-family: 'Oswald', sans-serif;
