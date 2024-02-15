@@ -1,6 +1,10 @@
 body{
 	height:100%;
-	background:black;
+	background-image: linear-gradient(90deg, rgba(55,53,24,0.7007003484987745) 0%, rgba(236,223,55,0) 50%, rgba(55,53,24,0.7) 100%), url("kuvat/ottelubg.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 	font-family:'Source Sans Pro', sans-serif; 
 	font-size:15px; 
 	color: #666;
@@ -15,6 +19,17 @@ body{
 	font-family: 'Oswald', sans-serif;
 	font-size:60px;color:black; 
 	letter-spacing:3px;
+}
+.logo {
+	height: 160px;
+	width: 150px;
+}
+#logokuva {
+	position:absolute;
+	height: 160px;
+	width: 150px;
+	float: left;
+	padding-left: 23%;
 }
 #linkity{
 	position:relative; 
@@ -52,7 +67,7 @@ body{
 footer {
 	clear:both;
 	text-align:center;
-	font-size:11px;
+	font-size:15px;
 	background-color:#3d423d;
 	border-right: 10px solid #ECDF37;
 	margin: auto;
