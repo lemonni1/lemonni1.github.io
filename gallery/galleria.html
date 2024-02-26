@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <link href='../style.css' rel='stylesheet' type='text/css'>
+    <link href='galleria.css' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <title>pk09</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="logokuva"><img class="logo" src="kuvat/pklogo.jpg"></div>
+
+        Pallokerho 09 Hyvinkää<br>
+        <div id="linkity">
+            <a class="linkit" href="sivu.html">Koti</a>
+            <div class="dropdown">
+                <button class="dropbtn linkit">Joukkueet</button>
+                <div class="dropdown-content">
+                    <a href="naisetedustus/naisetedustus.html">naiset 1</a>
+                    <a href="naisetedustus/naisetedustus2.html">Naiset 2</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropbtn2 linkit">Pelaajat</button>
+                <div class="dropdown-content2">
+                    <a href="pelaajasivu/pelaajasivu.html">pelaajat1</a>
+                    <a href="pelaajasivu/pelaajasivu2.html">pelaajat2</a>
+                </div>
+            </div>
+            <div class="dropdown3">
+                <button class="dropbtn3 linkit">Futsal</button>
+                <div class="dropdown-content3">
+                    <a href="futsal/futsal1.html">Futsal 1</a>
+                    <a href="futsal/futsal2.html">Futsal 2</a>
+                </div>
+            </div>
+
+            <!-- <a class="linkit" href="pelaajasivu/pelaajasivu.html">Pelaajat</a> -->
+            <!-- <a class="linkit" href="naisetedustus/naisetedustus.html">Joukkueet</a> -->
+            <!-- <a class="linkit" href="">placeholder</a> -->
+
+        </div>
+    </div>
+
+
+    <div id="box1">
+        <div id="box3">
+            <h1>Tiedotteet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non justo vel enim faucibus luctus id sed
+                orci. Vestibulum at odio ac libero consectetur imperdiet ac sollicitudin diam. Aliquam at tempus lectus.
+                Cras rhoncus rutrum tellus eget lobortis. Morbi a libero non ante elementum aliquet eget nec ante. Nam
+                fringilla iaculis velit.</p>
+            <!-- <div class="someupotus"><p id="facegramlogo">Facegram</p></div> -->
+            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non justo vel enim faucibus luctus id sed orci. Vestibulum at odio ac libero consectetur imperdiet ac sollicitudin diam. Aliquam at tempus lectus. Cras rhoncus rutrum tellus eget lobortis. Morbi a libero non ante elementum aliquet eget nec ante. Nam fringilla iaculis velit.</p> -->
+
+            <h1>Yhteystiedot</h1>
+            <p>Palokankaankatu 35<br>0582 Hyvinkää<br><br>Yhdistysrekisteritunnus<br>211.833<br><br>Tero
+                Pääläinen<br>040 848 3071<br>tero.paalainen(a)t-print.fi</p>
+
+        </div>
+        <div id="box2">
+            <h2 style="text-align:center">Slideshow Gallery</h2>
+
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="galleryKuvat/1.png" style="width:50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="galleryKuvat/2.png" style="width:50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="galleryKuvat/3.png" style="width:50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="galleryKuvat/4.png" style="width:50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="galleryKuvat/5.png" style="width:50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="galleryKuvat/6.png" style="width:50%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="galleryKuvat/1.png" style="width:100%" onclick="currentSlide(1)"
+                            alt="The Woods">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="galleryKuvat/2.png" style="width:100%" onclick="currentSlide(2)"
+                            alt="Cinque Terre">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="galleryKuvat/3.png" style="width:100%" onclick="currentSlide(3)"
+                            alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="galleryKuvat/4.png" style="width:100%" onclick="currentSlide(4)"
+                            alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="galleryKuvat/5.png" style="width:100%" onclick="currentSlide(5)"
+                            alt="Nature and sunrise">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="galleryKuvat/6.png" style="width:100%" onclick="currentSlide(6)"
+                            alt="Snowy Mountains">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("demo");
+                let captionText = document.getElementById("caption");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                slides[slideIndex - 1].style.margin = "auto";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+
+</body>
+
+</html>
