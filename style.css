@@ -107,7 +107,7 @@ a.linkit, .dropbtn, .dropbtn2, .dropbtn3{
 }
 a.linkit:hover, .dropbtn:hover, a.longan:active, .dropbtn:active, .dropbtn2:hover, a.longan2:active, .dropbtn2:active, .dropbtn3:hover, a.longan3:active, .dropbtn3:active{
 	background-color:black;
-	color:#ECDF37;
+	color:#faec0a;
 	border-color:black;
 	-o-transition:0.3s;-ms-transition:0.3s;  
 	-moz-transition:0.3s; 
@@ -176,7 +176,7 @@ td {
 	width: fit-content;
 	display: none;
 	position: absolute;
-	background-color: #ECDF37;
+	background-color: #faec0a;
 	width: 100px;
 	font-size:16px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -186,7 +186,7 @@ td {
 	width: fit-content;
 	font-family: 'Oswald', sans-serif;
 	text-transform:uppercase;
-	background-color: #ECDF37;
+	background-color: #faec0a;
   }
   .dropdown-content a, .dropdown-content2 a, .dropdown-content3 a {
 	width: fit-content;
@@ -197,8 +197,8 @@ td {
 	display: block;
   }
   
-  .dropdown-content a:hover, .dropdown-content2 a:hover, .dropdown-content3 a:hover {background-color: black; color: #ECDF37;}
+  .dropdown-content a:hover, .dropdown-content2 a:hover, .dropdown-content3 a:hover {background-color: black; color: #faec0a;}
   
   .dropdown:hover .dropdown-content, .dropdown2:hover .dropdown-content2, .dropdown3:hover .dropdown-content3 {display: block; width: fit-content;}
   
-  .dropdown:hover .dropbtn, .dropdown2:hover .dropbtn2, .dropdown3:hover .dropbtn3 {background-color: black; color: #ECDF37;}
+  .dropdown:hover .dropbtn, .dropdown2:hover .dropbtn2, .dropdown3:hover .dropbtn3 {background-color: black; color: #faec0a;}
