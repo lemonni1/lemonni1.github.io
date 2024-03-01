@@ -11,6 +11,9 @@ body{
 	letter-spacing:0.5px;
 }
 #header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position:absolute; 
 	top:0px; left:0px; width:100%; 
 	background-color:#faec0a;
@@ -25,11 +28,9 @@ body{
 	width: 150px;
 }
 #logokuva {
-	position:absolute;
+	position:relative;
 	height: 160px;
 	width: 150px;
-	float: left;
-	padding-left: 23%;
 }
 #linkity{
 	position:relative; 
