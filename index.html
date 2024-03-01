@@ -86,3 +86,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non justo vel enim
 <footer><span>pk09 © työssäoppiminen · design by <a href="http://almostsweet.neocities.org">almost sweet</a>, <a href="http://almostsweet.neocities.org/about.html">resources</a></span></footer>
 </body>
 </html>
+<script src="
+https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
+"></script>
+
+<script>
+
+$(window).resize(function(){
+    let header = document.getElementById("header")
+    let box1 = document.getElementById("box1");
+    box1.style.marginTop = header.offsetHeight + 'px';
+});
+</script>

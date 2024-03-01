@@ -11,6 +11,7 @@ body{
 	letter-spacing:0.5px;
 }
 #header {
+	z-index: 2147483647;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -38,7 +39,7 @@ body{
 }
 #box1{
 	margin:0 auto; 
-	margin-top:142px; 
+	margin-top:160px; 
 	width:1200px;
 	padding:26px;
 	background-color:#fff;
