@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><link href='../style.css' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 <title>pk09</title>
@@ -75,3 +76,15 @@ Futiskauden päätteksi olemme tehneet matkan ulkomaille. Ohjelmassa on ollut il
 <footer><span>pk09 © työssäoppiminen · design by <a href="http://almostsweet.neocities.org">almost sweet</a>, <a href="http://almostsweet.neocities.org/about.html">resources</a></span></footer>
 </body>
 </html>
+<script src="
+https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
+"></script>
+
+<script>
+
+$(window).resize(function(){
+    let header = document.getElementById("header")
+    let box1 = document.getElementById("box1");
+    box1.style.marginTop = header.offsetHeight + 'px';
+});
+</script>
