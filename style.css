@@ -40,7 +40,7 @@ body{
 #box1{
 	margin:0 auto; 
 	margin-top:160px; 
-	width:1200px;
+	max-width:65%;
 	padding:26px;
 	background-color:#fff;
 	font-size:16px;
@@ -50,12 +50,12 @@ body{
 #box2{
 	position:relative;
 	margin-bottom:16px;
-	width:856px;
+	max-width:70%;
 }
 #box3{
 	position:relative;
 	float:right;
-	width:200px;
+	max-width:20%;
 }
 #foot{
 	clear:both;
@@ -78,6 +78,7 @@ footer {
 }
 h1{
 	display:block;
+	max-width: 100%;
 	border-right: 10px solid #ECDF37;
 	font-family:'Source Sans Pro';
 	font-size:18px;
